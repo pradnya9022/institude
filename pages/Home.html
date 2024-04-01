@@ -1,11 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <style>
+    .img {
+      width: 200px;
+    }
+   
+  
+    .home:hover {
+      height: 40px;
+      width: 105px;
+      border: 2px solid purple;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 2px 0px 2px 0px;
+      transform: scale(0.9);
+      transition: 2s;
+      text-align: center;
     
+
+    }
+    .display-2{
+      text-align: center;
+      color:rgb(143, 24, 24);
+      
+    }
+    .img1{
+      display: flex;
+      justify-content:space-evenly;
+  margin-bottom: 30px;
+    }
+    .card{
+      transition: 2s;
+    }
+    .card:hover{
+      transform: scale(1.1);
+      box-shadow: 5px 5px 0px 0px;
+  color:rgb(143, 24, 24);
+    }
+    .btn{
+      margin-left: 100px;
+    }
+    .footer{
+      height:300px;
+      width: 100%;
+      border: 2px solid;
+      background-color: grey;
+    }
+   .type{
+    position: relative;
+  left: 20px;
+  top: 45px;
+   }
+   .type2{
+    position: relative;
+  left:20%;
+top: -30%;
+   } 
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary color">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5 me-5" href="#"><img class="img" src="./../img/download.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active ms-5 me-5 home " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 me-5 home" href="#">Addmissions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 me-5 home" href="#">Institutes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 me-5 home" href="#">Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 me-5 home" href="#">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <br>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./../image6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./../img/img6 copy.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./../img7.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <h1 class="display-2"><b>INSTITUTIONS </b></h1>
+  <p class="btn"><b>Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world </b></p>
+  <div class="img1">
+  <div class="card" style="width: 18rem;">
+    <img src="./../image1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">PHARMACY</p>
+    </div>
+  </div><div class="card" style="width: 18rem;">
+    <img src="./../image2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">MBA</p>
+    </div>
+  </div><div class="card" style="width: 18rem;">
+    <img src="./../image3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">POLYTECHNIC</p>
+    </div>
+ 
+  </div>
+</div>
+<div class="img1">
+<div class="card" style="width: 18rem;">
+    <img src="./../image4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">CBSE SCHOOL</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./../image5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">DIPLOMA IN PHARMACEUTICAL SCIENCES</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./../image6.jpg" class="card-img-top " style="height: 190px;">
+    <div class="card-body">
+      <p class="card-text">ENGINEERING</p>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer">
+  <ul class="type" type="none">
+    <li><b>AboutUs</b></li> 
+    <li>Home</li>
+    <li>Admissions</li>
+    <li>Education</li>
+    <li>About us</li>
+  </ul>
+<ul class="type2" type="none">
+  <li><b>Institutions</b></li>
+  <li>Engineering</li>
+  <li>Pharmacy</li>
+  <li>Management</li>
+   <li>Polytechnic</li>
+   
+</ul>
+<ul></ul>
+   </div>
+   </footer>
 </body>
+
 </html>
