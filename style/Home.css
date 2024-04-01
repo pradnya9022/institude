@@ -1,0 +1,16 @@
+.img{
+    width: 200px;
+}
+
+.home:hover{
+    height: 30px;
+width: 100px;
+border: 2px solid purple;
+border-radius: 10px;
+background-color:white;
+box-shadow: 2px 0px 2px 0px;
+transform: scale(0.9);
+transition: 2s;
+text-align: center;
+
+}
