@@ -1,0 +1,10 @@
+.first{
+    border: 1px solid gray;
+    transition: 2s;
+    box-shadow: 3px  red;
+}
+
+.first:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 0px 0px rgb(143, 24, 24);
+}
