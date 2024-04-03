@@ -29,11 +29,7 @@
     text-align: center;
     color:rgb(143, 24, 24);
   }
-  @media screen and(max-width:300px) {
-    .heading{
-      
-    }
-  }
+ 
   .img1{
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +38,7 @@ margin-bottom: 30px;
   }
   @media screen and( min-width:200px) {
     .img1{
-      display-wrap:wrap;
+      flex-wrap:wrap;
     }
   }
 .card{
@@ -111,6 +107,6 @@ margin-top: 20px;
 }
 @media screen and( max-width:200px) {
   .second{
-    display-wrap:wrap;
+    flex-wrap:wrap;
   }
 }
