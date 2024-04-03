@@ -9,7 +9,6 @@
     border: 2px solid;
     border-radius: 10px;
     background-color:pink;
-
     box-shadow: 2px 0px 2px 0px;
     transform: scale(0.9);
     transition: 2s;
@@ -63,26 +62,3 @@
    margin-left: 40%;
 }
 
-.ssc{
-    margin-left: 48%;
-}
-
-.hsc{
-    margin-left: 34%
-}
-
-.std{
-    margin-left: 42%;
-}
-
-.gap{
-    margin-left: 32%;
-}
-
-.cert{
-    margin-left: 27%;
-}
-
-.pass{
-    margin-left: 35%;
-}

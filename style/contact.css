@@ -1,0 +1,67 @@
+.img {
+    width: 200px;
+
+  }
+  
+  .home:hover {
+    height: 40px;
+    width: 105px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color:pink;
+    box-shadow: 2px 0px 2px 0px;
+    transform: scale(0.9);
+    transition: 2s;
+    text-align: center;
+  }
+
+.main{
+    height: 570px;
+    width: 550px;
+    border: 2px solid ;
+    margin-top: 100px;
+    margin-left: 30%;
+    background-image: url("./../pages/img/build-img.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10px 0px 60px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.name{
+    margin-left: 30px;
+    width: 300px;
+}
+
+.mail{
+    margin-left: 55px;
+}
+
+.help{
+    height: 80px;
+    width: 380px;
+}
+
+.submit{
+    background-color: rgb(167, 87, 87);
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: 22px;
+}
+
+.submit:hover{
+    color: black;
+    background-color: rgb(194, 191, 191);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 0px 0px rgb(110, 44, 44) ;
+}
+
+.accound{
+    margin-left: 85px;
+}
