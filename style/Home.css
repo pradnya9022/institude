@@ -27,6 +27,7 @@
   }
   .heading{
     text-align: center;
+    color:rgb(143, 24, 24);
   }
   @media screen and(max-width:300px) {
     .heading{
@@ -39,17 +40,21 @@
     justify-content:space-evenly;
 margin-bottom: 30px;
   }
-  @media screen and( max-width:300px) {
+  @media screen and( min-width:200px) {
     .img1{
       display-wrap:wrap;
     }
   }
-  .card{
-    transition: 2s;
-  }
-  .card:hover{
+.card{
+  transition: 2s;
+}
   
-    box-shadow: 2px 2px 0px 0px;
+
+  .card:hover{
+  transition: 2s;
+  box-shadow: 2px 2px 5px 0px ;
+  transition: 4s;
+
 /* color:rgb(143, 24, 24); */
   }
   .btn{
@@ -86,7 +91,7 @@ top: -30%;
  }
  .type4{
   position: relative;
-  left:60% ;
+  left:57% ;
   top: -130%;
  }
  .img10{
@@ -95,6 +100,7 @@ top: -30%;
     position: relative;
     top: -60px;
     left: 40%;
+    margin-left: 40px;
  }
  .second{
   display: flex;
