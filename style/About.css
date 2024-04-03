@@ -1,79 +1,126 @@
-.min{
-    height: 350px;
-    width: 500px;
-    display: flex;
-}
-.home1{
-    height: 500px;
-    width: 700px;
-}
-.third{
-    height: 250px;
-    background-color: rgb(199, 199, 230);
-    padding: 50px 0px 30px 160px;
-    display: flex;
-
-}
-
-.hotel{
-    margin-left: 70px;
-    margin-top: 30px;
-}
-
-.hotel-img{
-    transition: 2s;
-    border-radius: 10px;
-}
-
-.hotel-img:hover{
-        transform: scale(1.1);
-        border: 1px solid rgb(150, 83, 83);
-        border-radius: 10px;
-        box-shadow: 0px 0px 8px 2px ;
-
-}
-.third{
-    height: 250px;
-    background-color: rgb(199, 199, 230);
-    padding: 50px 0px 30px 160px;
-    display: flex;
-
-}
-
-.hotel{
-    margin-left: 70px;
-    margin-top: 30px;
-}
-
-.hotel-img{
-    transition: 2s;
-    border-radius: 10px;
-}
-
-.hotel-img:hover{
-        transform: scale(1.1);
-        border: 1px solid rgb(150, 83, 83);
-        border-radius: 10px;
-        box-shadow: 0px 0px 8px 2px ;
-
-}
-.hed{
-    height: 100px;
-    width: 100px;
-     display: flex;
-     border: 1px ;
-     justify-content: space-around;
-   
-}
-.card-img-top{
-    border-radius: 50%;
-}
-.vv{
-    display: flex;
-    justify-content: space-around;
-}
-.hotel-img{
-    height: 300px;
+.img {
     width: 200px;
-    border-radius: 50%;
+
+  }
+  
+
+
+  .home:hover {
+    height: 40px;
+    width: 105px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color:pink;
+
+    box-shadow: 2px 0px 2px 0px;
+    /* transform: scale(0.9); */
+    transition: 2s;
+    text-align: center;
+  
+
+  }
+
+  .margin{
+    margin-top: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto; 
+    margin-bottom: 0 30px; 
+    
+} 
+.card {
+width: 100%;
+height: 400%;
+/* background-color: pink; */ 
+border-radius: 10px;
+padding: 20px;
+transition: transform 0.3s ease;
+box-shadow: 5px 5px 20px black;
+margin-top: auto;
+margin-bottom: 0 30px;
+margin: 30px;
+display: flex;
+
 }
+.card:hover {
+transform: scale(1.05);
+}
+.box{
+    height: 300px;
+    width: 1200px;
+    border: 3px  black;
+    background-color:wheat;
+}
+.pk{
+    
+    color: red;
+}
+.bio{
+    text-align: left;
+}
+.dada{
+    width: 150px;
+    height: 140px;
+    padding: 0px 0px 0px px;
+    border-radius: 80px;
+}
+.hh{
+    color: red;
+}
+
+.main-class{
+    margin-left: 20px;
+}
+.footer{
+    height:300px;
+    width: 100%;
+    border: 2px solid;
+    background-color:rgb(56, 51, 51);
+    color: white;
+  }
+
+   @media screen and( max-width:300px) {
+    .footer{
+      display:b;
+    }
+  } 
+ .type{
+  position: relative;
+left: 20px;
+top: 45px;
+ }
+ .type2{
+  position: relative;
+left:20%;
+top: -30%;
+ } 
+ .type3{
+  position: relative;
+  left: 40%;
+  top: -75%;
+ }
+ .type4{
+  position: relative;
+  left:57% ;
+  top: -130%;
+ }
+ .img10{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -60px;
+    left: 40%;
+    margin-left: 40px;
+ }
