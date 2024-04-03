@@ -3,6 +3,8 @@
 
   }
   
+
+
   .home:hover {
     height: 40px;
     width: 105px;
@@ -10,9 +12,11 @@
     border-radius: 10px;
     background-color:pink;
     box-shadow: 2px 0px 2px 0px;
-    transform: scale(0.9);
+    /* transform: scale(0.9); */
     transition: 2s;
     text-align: center;
+  
+
   }
 
   .first-paragraph{
@@ -62,3 +66,44 @@
    margin-left: 40%;
 }
 
+.footer{
+    height:300px;
+    width: 100%;
+    border: 2px solid;
+    background-color:rgb(56, 51, 51);
+    color: white;
+  }
+
+   @media screen and( max-width:300px) {
+    .footer{
+      display:b;
+    }
+  } 
+ .type{
+  position: relative;
+left: 20px;
+top: 45px;
+ }
+ .type2{
+  position: relative;
+left:20%;
+top: -30%;
+ } 
+ .type3{
+  position: relative;
+  left: 40%;
+  top: -75%;
+ }
+ .type4{
+  position: relative;
+  left:57% ;
+  top: -130%;
+ }
+ .img10{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -60px;
+    left: 40%;
+    margin-left: 40px;
+ }
