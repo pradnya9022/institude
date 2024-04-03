@@ -67,7 +67,7 @@ margin-bottom: 30px;
 
    @media screen and( max-width:300px) {
     .footer{
-      display:b;
+      display:block;
     }
   } 
  .type{
